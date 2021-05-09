@@ -30,7 +30,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>King &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
+	<title>ChickChop &mdash; 日本語をハングルに直接変換</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -79,7 +79,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
 	</head>
 	<body>
 		
@@ -90,7 +90,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">ChickChop</a></div>
+					<!-- <div id="fh5co-logo"><a href="index.html">ChickChop</a></div> -->
 				</div>
 				<!-- <div class="col-xs-10 text-right menu-1">
 					<ul>
@@ -124,30 +124,39 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);">
+	<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-color:red;"> -->
+	<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);"> -->
+	<header id="fh5co-header" class="fh5co-cover bg" role="banner" style="background-image:url(images/background.png);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Start Your Journey</h1></br>
+							<h1>Chick Chop</h1>
+							<h3>-チックチョップ-</h3></br>
 							<!-- <div></div> -->
-							<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2></br>
+							<h2>日本語をハングルに"直接変換"</h2></br>
 							<!-- <div></div> -->
 
-							<input type="text" id="sample">
+							<input type="text" id="sample" class="inputjp frame" placeholder=" ひらがなを入力してください" style="width:300px; height:50px;">
+							<div style="margin-top:30px;">ここに表示されます</div>
+							<div style="margin-bottom:10px;"><img src="images/hand-point-down-regular.svg" width="16" height="16"></i></div>
+							<!-- <div style="margin-bottom:10px;">▼</div> -->
 							<div id="output" class="replace"></div></br>
-							<button type="button" id="js-copybtn">Copy</button>
-							<p id="js-copyalert" class="copy_alert">コピーできました！</p>
+							<!-- <div id="output" class="replace">　</div></br> -->
+							<button type="button" id="js-copybtn" class="copybtn btn-color frame" style="color:#FFFFFF;">ハングルをコピーする</button>
+
+							<p id="js-copyalert" class="copy_alert" style="color:transparent;">コピーできました <i class="far fa-thumbs-up"></i></p></br></br>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</header>
 
-	<div id="fh5co-core-feature">
+	<!-- <div id="fh5co-core-feature">
 		<div class="container">
 			<div class="row">
 				<div class="features">
@@ -167,7 +176,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- <div id="fh5co-services" class="fh5co-bg-section">
 		<div class="container">
@@ -288,56 +297,36 @@
 
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
-			<!-- <div class="row row-pb-md"> -->
-				<!-- <div class="col-md-4 fh5co-widget">
-					<h3>King.</h3>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a href="#">Learn More</a></p>
-				</div> -->
-				<!-- <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Help</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Meetups</a></li>
-					</ul>
-				</div> -->
 
-				<!-- <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Shop</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Handbook</a></li>
-						<li><a href="#">Held Desk</a></li>
-					</ul>
-				</div> -->
-
-				<!-- <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
-					<ul class="fh5co-footer-links">
-						<li><a href="#">Find Designers</a></li>
-						<li><a href="#">Find Developers</a></li>
-						<li><a href="#">Teams</a></li>
-						<li><a href="#">Advertise</a></li>
-						<li><a href="#">API</a></li>
-					</ul>
-				</div> -->
-			<!-- </div> -->
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+						<div class="sns-tag-cloud-under">
+						<p><span style="font-size: 150%; color: #2196f3;">＼ SNSでシェアする ／</span></p>
+						<!-- <a href="https://b.hatena.ne.jp/entry/{URLEncodedPermalink}" class="sns-tag-cloud-hatenab" target="_blank" data-hatena-bookmark-title="{Title}" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"> 
+						<em class="blogicon-bookmark lg"> </em> ブックマーク </a>  -->
+						<a href="https://www.facebook.com/sharer.php?u={URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-facebook" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"> 
+						<em class="blogicon-facebook lg icon-facebook"> </em></a> 
+						<a href="https://twitter.com/intent/tweet?text={Title} {URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-twitter"> 
+						<em class="blogicon-twitter lg icon-twitter"> </em></a> 
+						<!-- <a href="https://getpocket.com/edit?url={URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-pocket"> 
+						<em class="blogicon-chevron-down lg"> </em> ポケット </a>  -->
+						<a href="https://line.me/R/msg/text/?{Title} {URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-line"> 
+						<em class="blogicon-comment lg"> </em> <i class="fab fa-line"></i> </a>
+						</div>
+				</div>
+			</div>
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+						<ul class="fh5co-social-icons">
+							<small class="block">（制作した思いと）マニュアルは<a href="https://kyotoprogramminglab.com/">こちら</a></small>
+							<small class="block">意見・感想・不具合報告は<a href="https://twitter.com/hiKafka">TwitterのDM</a>でお願いします</small><br> 
+							<li><a href="https://twitter.com/hiKafka"><i class="icon-twitter"></i></a></li>
+						</ul>
 					</p>
 					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
+						<small class="block">&copy; 2021 KyotoProgrammingLab All Rights Reserved.</small> 
 					</p>
 				</div>
 			</div>
@@ -365,9 +354,180 @@
 </html>
 
 <style>
-	.copy_alert {
+	/* .bg{
+		filter:brightness(130%);
+	} */
+	.inputjp{
+		padding:20px;
+	}
+	/* .copy_alert {
 		display: none;
-		}
+		} */
+	.copybtn{
+		width:300px;
+		height:60px;
+	}
+	.frame{
+		border: 2px solid #333333;
+		border-radius: 5px;
+	}
+	.replace{
+		font-size: 20px;
+		color:black;
+	}
+	.copybtn {
+		border:none;
+		flex: 1 1 auto;
+		margin: 10px;
+		/* padding: 30px; */
+		text-align: center;
+		text-transform: uppercase;
+		transition: 0.5s;
+		background-size: 200% auto;
+		/* color: gray; */
+		/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+		/* box-shadow: 0 0 20px #eee; */
+		border-radius: 10px;
+	}
+	.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+	.btn-color {
+	  background-image: linear-gradient(to right, #8175c5 0%, #ff4fcd 51%, #f6d365 100%);
+	}
+
+
+	/* SNSシェア */
+	.snssharer {
+		margin: 10px 0 20px 0;
+	}
+	.snssharer:after {
+		content: "";
+		clear: both;
+		display: block;
+		height: 0;
+	}
+	.snssharer span a {
+		width: 19%;
+		float: left;
+		/* display: flex; */
+		display: block;
+		margin: 0 1% 0 0;
+		border: solid 2px #333;
+		border-radius: .4rem;
+		padding: 1rem 2rem;
+		text-align: center;
+		font-weight: bold;
+		font-size: 12px;
+	}
+	.snssharer .facebook a {
+		color: #FFFFFF;
+		background-color: #3c5a99;
+		border-color: #3c5a99;
+	}
+	.snssharer .twitter a {
+		color: #FFFFFF;
+		background-color: #28aae1;
+		border-color: #28aae1;
+	}
+	.snssharer .hatena a {
+		color: black;
+		background-color: #009fd7;
+		border-color: #009fd7;
+	}
+	.snssharer .pocket a {
+		color: #FFFFFF;
+		background-color: #DF3797;
+		border-color: #DF3797;
+	}
+	.snssharer .line a {
+		color: #FFFFFF;
+		/* color: #01ba01; */
+		background-color: #01ba01;
+		border-color: #01ba01;
+	}
+
+	
+
+
+/* 記事上ソーシャルボタン 上部の余白 */
+.sns-tag-cloud {
+   margin: 30px 0 10px 0;
+}
+
+/* 記事下ソーシャルボタン 下部の余白 */
+.sns-tag-cloud-under {
+   margin: 0px 0 10px 0;
+}
+
+/* SNSシェアボタン */
+.sns-tag-cloud {
+   padding-inline-start: 0px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.sns-tag-cloud-under {
+   padding-inline-start: 0px;
+font-size: 12px;
+font-weight: bold;
+text-align:center;
+}
+
+
+a.sns-tag-cloud-facebook {
+	display: inline-block;
+padding: 10px;
+margin:3px;
+	line-height: 1;
+	text-decoration: none;
+	color: #4064AC;
+border: 1.5px solid;
+border-color: #4064AC;
+border-radius: 3px;
+width: 100px;
+}
+a.sns-tag-cloud-facebook:hover {
+background: #4064AC; 
+color: #fff; 
+}
+
+a.sns-tag-cloud-twitter {
+	display: inline-block;
+padding: 10px;
+margin:10px;
+	line-height: 1;
+	text-decoration: none;
+	color: #1DA1F2;
+border: 1.5px solid;
+border-color: #1DA1F2;
+border-radius: 3px;
+width: 100px;
+}
+a.sns-tag-cloud-twitter:hover {
+background: #1DA1F2; 
+color: #fff; 
+}
+
+a.sns-tag-cloud-line {
+	display: inline-block;
+padding: 10px;
+margin:3px;
+	line-height: 1;
+	text-decoration: none;
+	color: #21BA4E;
+border: 1.5px solid;
+border-color: #21BA4E;
+border-radius: 3px;
+width: 100px;
+}
+a.sns-tag-cloud-line:hover {
+background: #21BA4E; 
+color: #fff; 
+}
+
+
+
 </style>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script>
@@ -700,12 +860,54 @@
             .replace(/ん/, "")
             .replace(/ゐ/g, "위")
             .replace(/ゑ/g, "웨")
-				
+
+			.replace(/が/g, "가")
+			.replace(/ぎ/g, "기")
+			.replace(/ぐ/g, "구")
+			.replace(/げ/g, "게")
+			.replace(/ご/g, "고")
+
+			.replace(/ざ/g, "자")
+			.replace(/じ/g, "지")
+			.replace(/ず/g, "주")
+			.replace(/ぜ/g, "제")
+			.replace(/ぞ/g, "조")
+
+			.replace(/だ/g, "다")
+			.replace(/ぢ/g, "지")
+			.replace(/づ/g, "주")
+			.replace(/で/g, "데")
+			.replace(/ど/g, "도")
+
+			.replace(/ば/g, "바")
+			.replace(/び/g, "비")
+			.replace(/ぶ/g, "부")
+			.replace(/べ/g, "베")
+			.replace(/ぼ/g, "보")
+
+			.replace(/ぱ/g, "파")
+			.replace(/ぴ/g, "피")
+			.replace(/ぷ/g, "푸")
+			.replace(/ぺ/g, "페")
+			.replace(/ぽ/g, "포")
                 );
             });
         });
 
+		// コピー機能
         $('#js-copybtn').on('click', function(){
+
+			// 何も入力されてないとアラート出す
+			if($('#output').html() === '　' || $('#output').html() === ''){
+				alert('何も入力されていません。入力してください！');
+				return false;
+			}
+			// ハングルに変換されてないとアラート出す
+			if(!$('#output').html().match(/^[가-힣]+$/)){
+				alert('ハングルに変換されていません！ひらがなを入力してください！');
+				return false;
+			}
+
             // コピーする文章の取得
             let text = $('#output').text();
             // テキストエリアの作成
@@ -720,13 +922,13 @@
             document.execCommand('copy');
             // テキストエリアの削除
             $textarea.remove();
-
-            //通知
-            $('#js-copyalert').show().delay(1000).fadeOut(1500);
+            //コピーできたら一定時間表示して消す
+            // $('#js-copyalert').show().delay(1000).fadeOut(1500);
+            $('#js-copyalert').css('color', 'black');
+				setTimeout(function(){
+				$("#js-copyalert").css('color', 'transparent');
+				},1500);
             });
-
-
-
 
             });   
     </script>

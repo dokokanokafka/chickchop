@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: black;
   background: #fff;
 }
 
@@ -46,12 +46,12 @@ body {
 }
 
 a {
-  color: #0C9CEE;
+  color: red;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #0C9CEE;
+  color: red;
   outline: none;
   text-decoration: none;
 }
@@ -69,17 +69,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #0C9CEE;
+  background: red;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #0C9CEE;
+  background: red;
 }
 
 ::selection {
   color: #fff;
-  background: #0C9CEE;
+  background: red;
 }
 
 .fh5co-nav {
@@ -100,7 +100,6 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  text-transform: uppercase;
   font-weight: bold;
 }
 .fh5co-nav a {
@@ -187,7 +186,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 .fh5co-nav ul li.btn-cta a {
-  color: #0C9CEE;
+  color: red;
 }
 .fh5co-nav ul li.btn-cta a span {
   background: #f35f55;
@@ -398,7 +397,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #0C9CEE;
+  color: red;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -417,7 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .fh5co-contact-info ul li:before {
-  color: #0C9CEE;
+  color: red;
   position: absolute;
   left: 0;
   top: 0.05em;
@@ -470,7 +469,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0px;
   font-size: 60px;
   line-height: 1.5;
-  text-transform: uppercase;
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
@@ -530,7 +528,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -669,7 +667,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .feature-center .icon i {
   font-size: 60px;
-  color: #0C9CEE;
+  color: red;
 }
 .feature-center .icon2 {
   float: left;
@@ -707,7 +705,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.1s;
 }
 .project-grid .desc {
-  background: rgba(12, 156, 238, 0.9);
+  background: rgba(255, 0, 0, 0.9);
   padding: 10px 20px;
   position: absolute;
   bottom: -93px;
@@ -797,7 +795,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 0;
 }
 .project-content .desc {
-  background: rgba(12, 156, 238, 0.9);
+  background: rgba(255, 0, 0, 0.9);
   padding: 10px 20px;
   position: absolute;
   bottom: -93px;
@@ -867,7 +865,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 #fh5co-started {
-  background: #0c9cee;
+  background: red;
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;
@@ -1198,21 +1196,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #0C9CEE;
+  background: red;
   color: #fff;
-  border: 2px solid #0C9CEE;
+  border: 2px solid red;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #20a7f4 !important;
-  border-color: #20a7f4 !important;
+  background: #ff1a1a !important;
+  border-color: #ff1a1a !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #0C9CEE;
-  border: 2px solid #0C9CEE;
+  color: red;
+  border: 2px solid red;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #0C9CEE;
+  background: red;
   color: #fff;
 }
 
@@ -1342,7 +1340,7 @@ h1, h2, h3, h4, h5, h6, figure {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #0C9CEE;
+  border-color: red;
 }
 
 .row-pb-md {

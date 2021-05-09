@@ -6,7 +6,8 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #0C9CEE !default;
+// $brand-primary: #0C9CEE !default;
+$brand-primary: red  !default;
 $brand-secondary: #f35f55 !default; 
 
 $brand-white: #fff;
@@ -19,7 +20,8 @@ $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
 
-$input-border-focus:  $brand-primary !default;
+// $input-border-focus:  $brand-primary !default;
+$input-border-focus: red !default;
 $form-group-margin-bottom:       30px !default;
 
 
@@ -110,7 +112,8 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.7;
-	color: #828282;
+	// color: #828282;
+	color: black;
 	background: #fff;
 }
 #page {
@@ -157,16 +160,19 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 ::-webkit-selection {
   color: $brand-white;
-  background: $brand-primary;
+//   background: $brand-primary;
+background: red;
 }
 
 ::-moz-selection {
   color: $brand-white;
-  background: $brand-primary;
+  //   background: $brand-primary;
+  background: red;
 }
 ::selection {
   color: $brand-white;
-  background: $brand-primary;
+//   background: $brand-primary;
+  background: red;
 }
 
 .fh5co-nav {
@@ -184,7 +190,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-size: 24px;
 		margin: 0;
 		padding: 0;
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		font-weight: bold;
 	}
 	a {
@@ -554,7 +560,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			margin-bottom: 0px;
 			font-size: 60px;
 			line-height: 1.5;
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			font-weight: 700;
 			@media screen and (max-width: $screen-sm) {
 				font-size: 40px;
@@ -606,7 +612,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-contact,
 #fh5co-footer{
-	padding: 7em 0;
+	padding: 2em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
 		padding: 3em 0;
