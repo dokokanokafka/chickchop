@@ -1,31 +1,5 @@
 <!DOCTYPE HTML>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-
-</script>
-<!-- <script type="text/javascript">
-	window.onload = function () {
-		getValue();
-		var $formObject = document.getElementById( "fh5co-header-subscribe" );
-		for( var $i = 0; $i < $formObject.length; $i++ ) {
-			$formObject.elements[$i].onkeyup = function(){
-				getValue();
-			};
-			$formObject.elements[$i].onchange = function(){
-				getValue();
-			};
-		}
-		document.getElementById( "sampleOutputLength" ).innerHTML = $formObject.length;
-	}
-	function getValue() {
-		var $formObject = document.getElementById( "fh5co-header-subscribe" );
-		document.getElementById( "sampleOutputName" ).innerHTML = $formObject.formName.value;
-		document.getElementById( "sampleOutputArea" ).innerHTML = $formObject.formArea.value;
-		document.getElementById( "sampleOutputAge" ).innerHTML = $formObject.formAge.value;
-		document.getElementById( "sampleOutputComent" ).innerHTML = $formObject.formComent.value;
-	}
-</script> -->
 <html>
 	<head>
 	<meta charset="utf-8">
@@ -36,19 +10,6 @@
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="gettemplates.co" />
 
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -61,8 +22,11 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
-	
+	<!--  Favcon-->
+	<link rel="icon" href="images/cc_favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="images/cc_favicon.ico">
+	<link rel="icon" type="image/png" href="images/cc_favicon.ico" sizes="192x192">
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -72,60 +36,27 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- goglefont -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Monoton&family=Oxygen&family=Secular+One&display=swap" rel="stylesheet">
+	
+	<!-- fontawesome -->
+
+	<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+
 	<!-- Modernizr JS -->
-	<!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
 	<script src="js/script.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	<link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<!-- <div id="fh5co-logo"><a href="index.html">ChickChop</a></div> -->
-				</div>
-				<!-- <div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="work.html">Work</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="#">Tools</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-						<li class="btn-cta"><a href="#"><span>Login</span></a></li>
-					</ul>
-				</div> -->
-			</div>
-			
-		</div>
-	</nav>
 
-	<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-color:red;"> -->
-	<!-- <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);"> -->
 	<header id="fh5co-header" class="fh5co-cover bg" role="banner" style="background-image:url(images/background.png);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -133,21 +64,17 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Chick Chop</h1>
-							<h3>-チックチョップ-</h3></br>
-							<!-- <div></div> -->
+							<h1 class="title title-font">Chick Chop</h1>
+							<h3 class="title title-jp-font">- チックチョップ -</h3></br>
 							<h2>日本語をハングルに"直接変換"</h2></br>
-							<!-- <div></div> -->
-
 							<input type="text" id="sample" class="inputjp frame" placeholder=" ひらがなを入力してください" style="width:300px; height:50px;">
 							<div style="margin-top:30px;">ここに表示されます</div>
 							<div style="margin-bottom:10px;"><img src="images/hand-point-down-regular.svg" width="16" height="16"></i></div>
-							<!-- <div style="margin-bottom:10px;">▼</div> -->
-							<div id="output" class="replace"></div></br>
-							<!-- <div id="output" class="replace">　</div></br> -->
+							<div id="output" class="replace">　</div></br>
 							<button type="button" id="js-copybtn" class="copybtn btn-color frame" style="color:#FFFFFF;">ハングルをコピーする</button>
 
 							<p id="js-copyalert" class="copy_alert" style="color:transparent;">コピーできました <i class="far fa-thumbs-up"></i></p></br></br>
+							<!-- <p id="js-copyalert" class="copy_alert" style="opacity: 0;">コピーできました <i class="far fa-thumbs-up"></i></p></br></br> -->
 						</div>
 					</div>
 				</div>
@@ -156,163 +83,22 @@
 
 	</header>
 
-	<!-- <div id="fh5co-core-feature">
-		<div class="container">
-			<div class="row">
-				<div class="features">
-					<div class="col-half animate-box" data-animate-effect="fadeInLeft">
-						<div class="table-c">
-							<div class="desc">
-								<span>Try Our Awesome Stuff</span>
-								<h3>Anyone can make there own Website</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
-								<p><a href="#" class="btn btn-lg btn-primary">Learn More</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-half-image-holder animate-box" data-animate-effect="fadeInRight">
-						<img class="img-responsive" src="images/samsungs6.png" alt="samsung">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-services" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-eye"></i>
-						</span>
-						<h3>Retina Ready</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-command"></i>
-						</span>
-						<h3>Fully Responsive</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-4 text-center">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
-						<span class="icon">
-							<i class="icon-power"></i>
-						</span>
-						<h3>Web Starter</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	
-	<!-- <div id="fh5co-project">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<span>Want Some Cool Stuff</span>
-					<h2>Our Project</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-		</div>
-		<div class="project-content">
-			<div class="col-half">
-				<div class="project animate-box" style="background-image:url(images/project-3.jpg);">
-					<div class="desc">
-						<span>Application</span>
-						<h3>Project Name</h3>
-					</div>
-				</div>
-			</div>
-			<div class="col-half">
-				<div class="project-grid animate-box" style="background-image:url(images/project-5.jpg);">
-					<div class="desc">
-						<span>Illustration</span>
-						<h3>Project Name</h3>
-					</div>
-				</div>
-				<div class="project-grid animate-box" style="background-image:url(images/project-2.jpg);">
-					<div class="desc">
-						<span>Branding</span>
-						<h3>Project Name</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	<!-- <div id="fh5co-testimonial" class="fh5co-bg-section">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Happy Clients</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<div class="testimony">
-								<div class="inner text-center">
-									<img src="images/person3.jpg" alt="testimony">
-								</div>
-								<blockquote>
-									<p>&ldquo;Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.&rdquo;</p>
-									<p class="author"><cite>&mdash; John Doe</cite></p>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-
-	<!-- <div id="fh5co-started">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Lets Get Started</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<form class="form-inline">
-						<div class="col-md-6 col-md-offset-3 col-sm-6">
-							<button type="submit" class="btn btn-default btn-block">Get In Touch</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
-						<div class="sns-tag-cloud-under">
-						<p><span style="font-size: 150%; color: #2196f3;">＼ SNSでシェアする ／</span></p>
-						<!-- <a href="https://b.hatena.ne.jp/entry/{URLEncodedPermalink}" class="sns-tag-cloud-hatenab" target="_blank" data-hatena-bookmark-title="{Title}" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"> 
-						<em class="blogicon-bookmark lg"> </em> ブックマーク </a>  -->
-						<a href="https://www.facebook.com/sharer.php?u={URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-facebook" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"> 
+					<div class="sns-tag-cloud-under">
+						<p class="gradation-article"><span style="font-size: 150%;">＼ SNSでシェアする ／</span></p>
+						<!-- <a href="https://www.facebook.com/sharer.php?u={URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-facebook" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;">  -->
+						<a href="https://www.facebook.com/share.php?u=https://haniwaman.com/original-share-btn/" target="_blank" class="sns-tag-cloud-facebook" > 
 						<em class="blogicon-facebook lg icon-facebook"> </em></a> 
-						<a href="https://twitter.com/intent/tweet?text={Title} {URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-twitter"> 
+						<a  href="https://twitter.com/share?url=https://haniwaman.com/original-share-btn/&text=日本語をハングルに直接変換！チックチョップ" rel="nofollow" target="_blank" class="sns-tag-cloud-twitter"> 
 						<em class="blogicon-twitter lg icon-twitter"> </em></a> 
-						<!-- <a href="https://getpocket.com/edit?url={URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-pocket"> 
-						<em class="blogicon-chevron-down lg"> </em> ポケット </a>  -->
 						<a href="https://line.me/R/msg/text/?{Title} {URLEncodedPermalink}" target="_blank" class="sns-tag-cloud-line"> 
+						<!-- <a href="https://social-plugins.line.me/lineit/share?url=https://haniwaman.com/original-share-btn/" target="_blank" class="sns-tag-cloud-line"> -->
 						<em class="blogicon-comment lg"> </em> <i class="fab fa-line"></i> </a>
-						</div>
+					</div>
 				</div>
 			</div>
 
@@ -320,8 +106,8 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<ul class="fh5co-social-icons">
-							<small class="block">（制作した思いと）マニュアルは<a href="https://kyotoprogramminglab.com/">こちら</a></small>
-							<small class="block">意見・感想・不具合報告は<a href="https://twitter.com/hiKafka">TwitterのDM</a>でお願いします</small><br> 
+							<small class="block manual">（制作した思いと）マニュアルは<a href="https://kyotoprogramminglab.com/">こちら</a></small>
+							<small class="block">感想・要望・不具合報告は<a href="https://twitter.com/hiKafka">TwitterのDM</a>でお願いします</small><br> 
 							<li><a href="https://twitter.com/hiKafka"><i class="icon-twitter"></i></a></li>
 						</ul>
 					</p>
@@ -354,15 +140,9 @@
 </html>
 
 <style>
-	/* .bg{
-		filter:brightness(130%);
-	} */
 	.inputjp{
 		padding:20px;
 	}
-	/* .copy_alert {
-		display: none;
-		} */
 	.copybtn{
 		width:300px;
 		height:60px;
@@ -379,18 +159,14 @@
 		border:none;
 		flex: 1 1 auto;
 		margin: 10px;
-		/* padding: 30px; */
 		text-align: center;
 		text-transform: uppercase;
 		transition: 0.5s;
 		background-size: 200% auto;
-		/* color: gray; */
-		/* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
-		/* box-shadow: 0 0 20px #eee; */
 		border-radius: 10px;
 	}
 	.btn:hover {
-  background-position: right center; /* change the direction of the change here */
+  	background-position: right center; 
 }
 	.btn-color {
 	  background-image: linear-gradient(to right, #8175c5 0%, #ff4fcd 51%, #f6d365 100%);
@@ -446,92 +222,105 @@
 		background-color: #01ba01;
 		border-color: #01ba01;
 	}
+		
+	/* 記事上ソーシャルボタン 上部の余白 */
+	.sns-tag-cloud {
+		margin: 30px 0 10px 0;
+	}
 
-	
+	/* 記事下ソーシャルボタン 下部の余白 */
+	.sns-tag-cloud-under {
+		margin: 0px 0 10px 0;
+	}
 
+	/* SNSシェアボタン */
+	.sns-tag-cloud {
+		padding-inline-start: 0px;
+		font-size: 12px;
+		font-weight: bold;
+	}
 
-/* 記事上ソーシャルボタン 上部の余白 */
-.sns-tag-cloud {
-   margin: 30px 0 10px 0;
-}
-
-/* 記事下ソーシャルボタン 下部の余白 */
-.sns-tag-cloud-under {
-   margin: 0px 0 10px 0;
-}
-
-/* SNSシェアボタン */
-.sns-tag-cloud {
-   padding-inline-start: 0px;
-font-size: 12px;
-font-weight: bold;
-}
-
-.sns-tag-cloud-under {
-   padding-inline-start: 0px;
-font-size: 12px;
-font-weight: bold;
-text-align:center;
-}
+	.sns-tag-cloud-under {
+		padding-inline-start: 0px;
+		font-size: 12px;
+		font-weight: bold;
+		text-align:center;
+	}
 
 
-a.sns-tag-cloud-facebook {
-	display: inline-block;
-padding: 10px;
-margin:3px;
-	line-height: 1;
-	text-decoration: none;
-	color: #4064AC;
-border: 1.5px solid;
-border-color: #4064AC;
-border-radius: 3px;
-width: 100px;
-}
-a.sns-tag-cloud-facebook:hover {
-background: #4064AC; 
-color: #fff; 
-}
+	a.sns-tag-cloud-facebook {
+		display: inline-block;
+		padding: 10px;
+		margin:3px;
+		line-height: 1;
+		text-decoration: none;
+		color: #4064AC;
+		border: 1.5px solid;
+		border-color: #4064AC;
+		border-radius: 3px;
+		width: 100px;
+	}
+	a.sns-tag-cloud-facebook:hover {
+		background: #4064AC; 
+		color: #fff; 
+	}
 
-a.sns-tag-cloud-twitter {
-	display: inline-block;
-padding: 10px;
-margin:10px;
-	line-height: 1;
-	text-decoration: none;
-	color: #1DA1F2;
-border: 1.5px solid;
-border-color: #1DA1F2;
-border-radius: 3px;
-width: 100px;
-}
-a.sns-tag-cloud-twitter:hover {
-background: #1DA1F2; 
-color: #fff; 
-}
+	a.sns-tag-cloud-twitter {
+		display: inline-block;
+		padding: 10px;
+		margin:10px;
+		line-height: 1;
+		text-decoration: none;
+		color: #1DA1F2;
+		border: 1.5px solid;
+		border-color: #1DA1F2;
+		border-radius: 3px;
+		width: 100px;
+	}
+	a.sns-tag-cloud-twitter:hover {
+		background: #1DA1F2; 
+		color: #fff; 
+	}
 
-a.sns-tag-cloud-line {
-	display: inline-block;
-padding: 10px;
-margin:3px;
-	line-height: 1;
-	text-decoration: none;
-	color: #21BA4E;
-border: 1.5px solid;
-border-color: #21BA4E;
-border-radius: 3px;
-width: 100px;
-}
-a.sns-tag-cloud-line:hover {
-background: #21BA4E; 
-color: #fff; 
-}
+	a.sns-tag-cloud-line {
+		display: inline-block;
+		padding: 10px;
+		margin:3px;
+		line-height: 1;
+		text-decoration: none;
+		color: #21BA4E;
+		border: 1.5px solid;
+		border-color: #21BA4E;
+		border-radius: 3px;
+		width: 100px;
+	}
+	a.sns-tag-cloud-line:hover {
+		background: #21BA4E; 
+		color: #fff; 
+	}
 
-
-
+	.title, .gradation-article{
+		background: -webkit-linear-gradient(
+		30deg,#065ef6,#bc65dc,#eb5234);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		position: relative;
+		margin-bottom: 10px;
+	}
+	.title-font{
+		font-family: 'Monoton', cursive;
+	}
+	.title-jp-font{
+		font-family: 'M PLUS 1p', sans-serif;
+	}
+	.manual{
+		margin-bottom: 10px;
+	}
 </style>
+
+<!-- 必要なら -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
 <script>
-    
     $(function(){
         
 		// 入力をリアルタイムにハングルに反映
@@ -564,6 +353,7 @@ color: #fff;
 
             .replace(/しゅう/g, "슈")
 			.replace(/しゅん/g, "슌")
+			.replace(/しょん/g, "션")
 
             .replace(/ちゅう/g, "추")
             .replace(/にゅう/g, "뉴")
@@ -576,17 +366,17 @@ color: #fff;
             .replace(/びゅう/g, "뷰")
             .replace(/ぴゅう/g, "퓨")
 
-            .replace(/おう/g, "오")
-            .replace(/こう/g, "코")
-            .replace(/そう/g, "소")
-            .replace(/とう/g, "토")
-            .replace(/のう/g, "노")
+            // .replace(/おう/g, "오")
+            // .replace(/こう/g, "코")
+            // .replace(/そう/g, "소")
+            // .replace(/とう/g, "토")
+            // .replace(/のう/g, "노")
 
-            .replace(/ほう/g, "호")
-            .replace(/もう/g, "모")
-            .replace(/よう/g, "요")
-            .replace(/ろう/g, "로")
-            .replace(/きょう/g, "쿄")
+            // .replace(/ほう/g, "호")
+            // .replace(/もう/g, "모")
+            // .replace(/よう/g, "요")
+            // .replace(/ろう/g, "로")
+            // .replace(/きょう/g, "쿄")
 
             .replace(/しょう/g, "쇼")
             .replace(/ちょう/g, "초")
@@ -605,7 +395,6 @@ color: #fff;
             .replace(/きょ/g, "쿄")
             .replace(/しゃ/g, "샤")
             .replace(/しゅ/g, "슈")
-			// .replace(/しゅん/g, "슌")
             .replace(/しょ/g, "쇼")
             .replace(/ちゃ/g, "차")
             .replace(/ちゅ/g, "추")
@@ -650,8 +439,6 @@ color: #fff;
 
             .replace(/さん/g, "산")
             .replace(/しん/g, "신")
-			// .replace(/しゅん/g, "슌")
-            .replace(/しょん/g, "션")
             .replace(/すん/g, "순")
             .replace(/せん/g, "센")
             .replace(/そん/g, "손")
@@ -904,7 +691,7 @@ color: #fff;
 			}
 			// ハングルに変換されてないとアラート出す
 			if(!$('#output').html().match(/^[가-힣]+$/)){
-				alert('ハングルに変換されていません！ひらがなを入力してください！');
+				alert('ハングルに変換されていない文字があります！ひらがなを入力してください！');
 				return false;
 			}
 
@@ -924,9 +711,28 @@ color: #fff;
             $textarea.remove();
             //コピーできたら一定時間表示して消す
             // $('#js-copyalert').show().delay(1000).fadeOut(1500);
-            $('#js-copyalert').css('color', 'black');
+            // $('#js-copyalert').css('color', 'black');
+
+			// let css = {
+			// 	// 'opacity': '1',
+			// 	'color' :'-webkit-linear-gradient'(
+			// 	'30deg,#065ef6,#bc65dc,#eb5234'),
+			//     '-webkit-background-clip': 'text',
+			//     '-webkit-text-fill-color': 'transparent',
+			//     'position': 'relative',
+			// 	'margin-bottom': '10px'
+			// 		}
+
+            $('#js-copyalert').css(
+            // $('#js-copyalert').css(
+				'color', 'black'
+				// 'opacity', '1',
+				// css
+				
+				);
 				setTimeout(function(){
 				$("#js-copyalert").css('color', 'transparent');
+				// $("#js-copyalert").css('opacity', '0');
 				},1500);
             });
 
