@@ -1,48 +1,20 @@
+#Chick Chop
 
-TITLE: 
-King - 100% Fully Responsive Free HTML5 Bootstrap Template
+日本語をハングル(韓国語)に直接変換できます
 
-AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+使い方:
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
+１. ひらがなを入力してください
+
+　入力するとすぐにハングルが入力欄の下に表示されます！
 
 
-CREDITS:
+２. 「ハングルをコピーする」ボタンを押してください
 
-Bootstrap
-http://getbootstrap.com/
+　表示されたハングルがコピーされます！
 
-jQuery
-http://jquery.com/
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+３. あとは貼り付けするだけです。ご自由に使ってください！
 
-Modernizr
-http://modernizr.com/
-
-Google Fonts
-https://www.google.com/fonts/
-
-Icomoon
-https://icomoon.io/app/
-
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
-
-animate.css
-http://daneden.me/animate
-
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Demo Images:
-http://unsplash.com
-
-Samsung Phone
-http://graphicburger.com
 
 
