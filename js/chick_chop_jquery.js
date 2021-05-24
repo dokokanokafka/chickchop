@@ -332,7 +332,7 @@
 
 			.replace(/ざ/g, "자")
 			.replace(/じ/g, "지")
-			.replace(/ず/g, "주")
+			.replace(/ず/g, "즈")
 			.replace(/ぜ/g, "제")
 			.replace(/ぞ/g, "조")
 
