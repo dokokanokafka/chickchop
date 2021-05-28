@@ -18,13 +18,14 @@
             .replace(/うう/g, "우")
             .replace(/くう/g, "쿠")
             .replace(/すう/g, "수")
-            .replace(/つう/g, "쓰")
+            .replace(/つう/g, "츠")
             .replace(/ぬう/g, "누")
 
             .replace(/ふう/g, "후")
             .replace(/むう/g, "무")
             .replace(/ゆう/g, "유")
             .replace(/るう/g, "루")
+            .replace(/ろう/g, "로")
             .replace(/きゅう/g, "큐")
 
             .replace(/しゅう/g, "슈")
@@ -121,7 +122,7 @@
 
             .replace(/たん/g, "탄")
             .replace(/ちん/g, "친")
-            .replace(/つん/g, "쓴")
+            .replace(/つん/g, "츤")
             .replace(/てん/g, "텐")
             .replace(/とん/g, "톤")
 
@@ -208,7 +209,7 @@
 
             .replace(/たっ/g, "탓")
             .replace(/ちっ/g, "칫")
-            .replace(/つっ/g, "씃")
+            .replace(/つっ/g, "츳")
             .replace(/てっ/g, "텟")
             .replace(/とっ/g, "톳")
 
@@ -292,7 +293,7 @@
             .replace(/そ/g, "소")
             .replace(/た/g, "타")
             .replace(/ち/g, "치")
-            .replace(/つ/g, "쓰")
+            .replace(/つ/g, "츠")
             .replace(/て/g, "테")
             .replace(/と/g, "토")
             .replace(/な/g, "나")
